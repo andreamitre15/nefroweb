@@ -1,1 +1,1 @@
-Soy Médica, metiendome en este nuevo mundo de lqa programación.
+Soy Médica, metiendome en este nuevo mundo digital.
