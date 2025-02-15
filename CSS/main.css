@@ -1,173 +1,162 @@
+/* reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEEEEE;
+  padding: 50px;
 }
 
 h1 {
-    color: deeppink;
-    font-family: sans-serif;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 20px;
+  color: deeppink;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
 }
+
 h2 {
-    font-size: medium;
-    text-align: center;
+  font-size: medium;
+  text-align: center;
 }
+
+body {
+  background-color: #EEEEEE;
+  padding: 50px;
+}
+
 header {
-    background-color: #8d8e92;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8d8e92;
 }
-
 header img {
-    width: 10%;
+  width: 10%;
 }
-
-header nav ul {
-    color: rgb(251, 253, 253);
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
+header header nav ul {
+  color: rgb(251, 253, 253);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
-
 main .textos {
-    text-align: center;
-    margin-right: 150px;
+  text-align: center;
+  margin-right: 150px;
 }
-
-main .textos .boton {
-    background-color: #2b2b2b;
-    color: whitesmoke;
-    padding: 10px;
-    display: inline-block;
-    margin-top: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    box-shadow: 10px 10px 10px rgb(240, 51, 193);
-}
-
-.enviar {
-    background-color: #2b2b2b;
-    color: whitesmoke;
-    padding: 10px;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 100px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    box-shadow: 10px 10px 10px rgb(240, 51, 193);
+main .boton {
+  background-color: #2b2b2b;
+  color: whitesmoke;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  box-shadow: 10px 10px 10px rgb(240, 51, 193);
 }
 
 .boton {
-    background-color: #2b2b2b;
-    color: whitesmoke;
-    padding: 10px;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 100px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    box-shadow: 10px 10px 10px rgb(240, 51, 193);
+  background-color: #2b2b2b;
+  color: whitesmoke;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  box-shadow: 10px 10px 10px rgb(240, 51, 193);
 }
-.donar{
-    flex-direction: column;
-    margin: 15px;
-    margin-block-end: 25px;
-    margin-left: 10px;
-    box-shadow: #8d8e92;
+
+.enviar {
+  background-color: #2b2b2b;
+  color: whitesmoke;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  box-shadow: 10px 10px 10px rgb(240, 51, 193);
 }
 
 .col img {
-    width: 300px;
-    height: 300px;
-}
-
-.coli {
-    padding: 30px;
-    background-color: rgb(245, 136, 238);
-}
-
-.tx {
-    display: flex;
-    gap: 100px;
-    align-content: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 100px);
-    justify-items: center;
-    align-items: start;
-    justify-content: space-between;
-    align-content: space-evenly;
-    margin-top: 50px;
-    background-color: hotpink;
-}
-
-.container {
-    display: grid;
-    grid-template-rows: repeat(3, 100px);
-    align-content: space-around;
+  width: 300px;
+  height: 300px;
 }
 
 footer {
-    background-color: deeppink;
-    margin-top: 100px;
-    text-align: center;
+  background-color: deeppink;
+  margin-top: 100px;
+  text-align: center;
 }
 
-/* lo mas complicado */
+h1 {
+  color: deeppink;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: medium;
+  text-align: center;
+}
 
 @media (min-width: 600px) {
-    header {
-        font-size: 15px;
-        padding: 30px;
-    }
-
-    body {
-        font-size: 10px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    img {
-        width: 50%;
-    }
+  header {
+    font-size: 15px;
+    padding: 30px;
+  }
+  body {
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 50%;
+  }
+}
+h1 {
+  color: deeppink;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-/* Esto es lo que mas me da problemas */
+h2 {
+  font-size: medium;
+  text-align: center;
+}
 
 @media (min-width: 1024px) {
-    header {
-        font-size: 25px;
-        padding: 30px;
-    }
-
-    body {
-        font-size: 20px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    img {
-        width: 50%;
-    }
+  header {
+    font-size: 25px;
+    padding: 30px;
+  }
+  body {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 50%;
+  }
 }
+
+/*# sourceMappingURL=main.css.map */

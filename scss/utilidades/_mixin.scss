@@ -1,0 +1,23 @@
+@mixin grid($grid, $column, $row) {
+    display: $grid;
+    grid-template-columns: $column;
+    grid-template-rows: $row;
+} 
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1 {
+    color: deeppink;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    font-size: medium;
+    text-align: center;
+}

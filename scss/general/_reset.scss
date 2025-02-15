@@ -1,0 +1,13 @@
+/* reset */
+
+@import "../utilidades/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color-body;
+    padding: 50px;
+}
