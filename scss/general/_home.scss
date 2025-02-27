@@ -1,7 +1,7 @@
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
 
-body{
+body {
     background-color: $color-body;
     padding: 50px;
 }
@@ -9,18 +9,21 @@ body{
 header {
     @include flex;
     background-color: #8d8e92;
+    
+    nav {
+        ul {
+            color: white;
+            list-style: none;
+            gap: 50px;
+        }
+    }
     img {
         width: 15%;
+        margin: 25px;
     }
-    header nav ul {
-        color: rgb(251, 253, 253);
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 50px;
-    }
-    
 }
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -28,10 +31,11 @@ main {
     justify-items: center;
     margin-top: 50px;
     margin-bottom: 40px;
+
     .textos {
         text-align: center;
-        margin-right: 150px;
     }
+
     .boton {
         background-color: #2b2b2b;
         color: whitesmoke;
@@ -42,8 +46,17 @@ main {
         border-top-left-radius: 50px;
         box-shadow: 10px 10px 10px rgb(240, 51, 193);
     }
-    
+
 }
+
+.grid-contenido {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 25%);
+    grid-row-gap: 20px;
+}
+
 .boton {
     background-color: #2b2b2b;
     color: whitesmoke;
@@ -55,6 +68,7 @@ main {
     border-top-left-radius: 50px;
     box-shadow: 10px 10px 10px rgb(240, 51, 193);
 }
+
 .enviar {
     background-color: #2b2b2b;
     color: whitesmoke;
@@ -62,15 +76,38 @@ main {
     display: inline-block;
     margin-top: 50px;
     margin-left: 100px;
+    margin-bottom: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
     box-shadow: 10px 10px 10px rgb(240, 51, 193);
 }
+
 .col img {
     width: 300px;
     height: 300px;
 }
 
+
+
+h3 {
+    color: deeppink;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section i {
+    font-size: 35px;
+    border: 1px solid;
+    height: 48px;
+    width: 58px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-radius: 80px;
+    margin-top: 50px;
+    color: black;
+}
 
 footer {
     background-color: deeppink;
